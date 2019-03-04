@@ -1,0 +1,205 @@
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+
+/* Gloabl styles */
+html {
+  scroll-behavior: smooth;
+
+}
+
+body {
+  color: #000000;
+  font-family: Signika, Helvetica, Arial, sans-serif;
+  font-weight: 300;
+  line-height: 1.5
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Signika', sans-serif;
+  margin-bottom: 1rem;
+}
+
+/* Section */
+
+section {
+  font-size: 1.3rem;
+  line-height: 1.3;
+  padding: 3% 9%;
+}
+
+/* Navigation Bar */
+
+.navbar-nav {
+  margin: 0 auto;
+}
+
+#navbarNav {
+  color: #ffd05a;
+}
+
+.nav-link {
+  font-size: 1.3rem;
+  text-align: center;
+}
+
+.navbar-dark .navbar-nav .nav-link:focus,
+.navbar-dark .navbar-nav .nav-link:hover {
+  color: #fff !important;
+}
+
+
+/* Containers */
+
+.container-fluid {
+  margin: 1rem;
+  padding: 0 1rem;
+}
+
+/* Main section */
+.pageMain {
+  background-color: #55c0ec;
+  padding: 3rem;
+  text-align: center;
+}
+
+.mainDescription h1 {
+  columns: #000000;
+  ;
+  font-size: 5rem;
+  line-height: 1;
+  margin: 1rem;
+  text-align: center;
+}
+
+.mainText {
+  color: #fff;
+  font-size: 1.7rem;
+  font-weight: 300;
+  line-height: 1.25;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.mainButton {
+  margin: auto;
+  margin-bottom: 1rem;
+  padding: 1% 3%;
+}
+
+.button-img {
+  height: 50px;
+  margin: 2px;
+  margin-right: 1rem;
+}
+
+/* Page Titles */
+
+.pageTitle {
+  font-size: 2.1rem;
+  text-align: center;
+  line-height: 1.25;
+  margin-bottom: 0rem;
+
+}
+
+hr {
+  color: #55c0ec;
+  background-color: #55c0ec;
+  height: 3px;
+  margin: 0 auto;
+  margin-bottom: 2rem;
+  width: 150px;
+}
+
+/* About Section */
+
+/* Features Section */
+
+
+.pageFeatures {
+  background-color: #90ddaa;
+}
+
+.pageFeatures .row {
+  justify-content: space-around;
+}
+
+.pageFeatures .card {
+  background-color: #40596b;
+  margin-bottom: 3rem;
+  padding: 0;
+  border-radius: .25vmin;
+  text-align: center;
+  flex: 0 0 25vw;
+  min-width: 250px;
+}
+
+.card-img {
+  height: 40%;
+  margin:auto;
+}
+
+.cardDescription {
+  background-color: #fafafa;
+  padding: 1rem;
+}
+
+/* Call to Action Section */
+
+#cta a {
+  margin: 3rem;
+}
+
+.pageCta {
+  text-align: center;
+}
+
+.ctaMainText {
+  margin: 0 auto;
+  width: 50%;
+}
+
+/* Footer section */
+
+.footer {
+  background-color: #40596b;
+  bottom: opx;
+  position: absolute;
+  width: 100vw;
+  z-index: -1;
+}
+
+.fa-heart {
+  color: red;
+}
+
+.footer .container-fluid p {
+  color: #fff;
+  font-size: 0.8rem;
+  line-height: 0.75;
+  text-align: center;
+}
+
+/* Back to top button */
+.back-to-top {
+  background-color: #ffd05a;
+  border-radius: 4px;
+  bottom: 1rem;
+  overflow: hidden;
+  padding: .5rem .5rem .5rem;
+  position: fixed;
+  right: 1rem;
+  z-index: 999;
+}
+
+.back-to-top img {
+  width: 2rem;
+}
